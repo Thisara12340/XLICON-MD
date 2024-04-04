@@ -3,19 +3,19 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || "923184070915"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || "94788303001"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://salmanahmad:s4salmanyt@cluster0.szcj2eo.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'xheikhsalman4422@gmail.com'
 global.github = 'https://github.com/salmanytofficial/XLICON-MD'
 global.location = 'Lahore Pak'
 global.gurl = 'https://instagram.com/itz_shaikho/' // add your username
-global.sudo = process.env.SUDO || '923184070915' 
+global.sudo = process.env.SUDO || '94788303001' 
 global.devs = '923184070915';
 global.website = 'https://github.com/salmanytofficial/XLICON-MD' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3c341828d86ee7a89c73f.jpg'
 module.exports = {
-  sessionName:  process.env.SESSION_ID ||  " ",  //PUT Session Id Here, 
+  sessionName:  process.env.SESSION_ID ||  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVUFoTmpnZVhnTWpsUDcxOCtZWGtMclJhRThYMGVHL3NiaHJYRFFHVngwND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNXZqWXdsK1NwbFRVUUppY09ybWFxZ1RTZWdNNTR4Vkx1bXpRY09wT3MwYz0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJBSVpEWUtMZUlHbVlQaVh6dGhOYTlQOTVhbjRuSmVLVGhtK1RTUnJ0UVc0PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxOUZoOEwzNXNZVHR2cjQrUjVmYUs5K2JZcTgwcHJ0MzFjNEdUdU10SG5VPSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im9EQVBVNW1iMUo1TTVjd3ZxT00zOWthaFVuQXQ2dGlPNzVEanRzWk1iV0k9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IldFUXRwUGNSVnRMSTV4eGhpWTVrQitZeWQrQXFoNVN5UjhmUCt0TFBBd3c9In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxUVlsZm1tR3dhTEdtK1A0OXhxem5IdXNqR0VDTTAveXMrUXl3b3pGZEhGNjdnTzEwNzYxVFdHVlI5anFlU3JZQjg3ZWwzOVhRMmV2T0ZhQnljNU9pUT09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjIxNSwiYWR2U2VjcmV0S2V5IjoiWGhrUFlzYm9TbW9pcTR2RlA2bFBLQWFZK2s2Qm14Rjd4QlhUNlEwZ05oaz0iLCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXMiOltdLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MCwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiV3RscE1YODVTbk9yWHVEdlBSQ1BqZyIsInBob25lSWQiOiI0NGI4NDBhOS0zYmIzLTQyZDItYmY3Ni00ZmIxZWYyYjk4Y2UiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZmpWSG9nYXZFWVhKK2h2bklQMW1nbk1sUjYwPSJ9LCJyZWdpc3RlcmVkIjpmYWxzZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJuang1KzN5SmJRR0ZmS3VNZTFIOEEzdUFkL2M9In0sInJlZ2lzdHJhdGlvbiI6e30sImFjY291bnQiOnsiZGV0YWlscyI6IkNNS3AxRTBRL3VXNnNBWVlBU0FBS0FBPSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJRUHB0K0xlNFdmZGp2NDYxZnFRKy9VczBLaHZtZlZ5Q1NoQUgvNlI2Ulg0PSIsImFjY291bnRTaWduYXR1cmUiOiJQOUdGMEt4RUdKelJHbjBOcnl4Q0VxNTJld0x6cGZHQkZBalpqaC81KzE1SWMxUVdvSzZYdWJ1eGQ3NElmZzcyVnZUVXJUcGl0c21QTFpDeEpySTNEUT09IiwiZGV2aWNlU2lnbmF0dXJlIjoiWEtNb3ArSXpjN0lsckttY3JRR1FzTXBhdndMdWtOUDdMUTRpczFpbGplTGdCakNLMHJjZXJsdjVpSnYrbUwrWWx3OXRic216MnlWZ3JReHZyejFyZ3c9PSJ9LCJtZSI6eyJpZCI6Ijk0Nzg4MzAzMDAxOjRAcy53aGF0c2FwcC5uZXQifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiOTQ3ODgzMDMwMDE6NEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJVRDZiZmkzdUZuM1k3K090WDZrUHYxTE5Db2I1bjFjZ2tvUUIvK2tla1YrIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzEyMjM5MzYzfQ== ",  //PUT Session Id Here, 
   author:  process.env.PACK_AUTHER ||  '',
   packname:  process.env.PACK_NAME || '',
    
